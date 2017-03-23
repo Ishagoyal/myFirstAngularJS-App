@@ -1,12 +1,12 @@
-(function () {
+(function(){
 	// body...
 	'use strict';
-	angular.module('myFirstApp',[]);
+	angular.module('myFirstApp',[])
 
-	.controller('myFirstController',function ($scope) {
+	.controller('myFirstController', function($scope){
 		// body...
-		$scope.name="Isha";
-		$scope.sayHello=function() {
+		$scope.name = "Isha";
+		$scope.sayHello = function() {
 			// body...
 			return "Hello";
 		}
